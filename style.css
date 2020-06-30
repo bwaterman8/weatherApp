@@ -1,22 +1,25 @@
-*{
+* {
     border: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: rgb(191, 213, 253);
+}
 
+body {
+    background-image: linear-gradient(to bottom right, rgb(47, 194, 252), rgb(17, 0, 255))
 }
 
 .weather_container {
     display: grid;
     grid-template-rows: 1fr 6fr;
     height: 97vh;
+
 }
 
 .weather_head {
     text-align: center;
     padding-top: 1em;
     font-size: 2em;
-    background-color: whitesmoke;
+    background-color: rgb(238, 238, 238);
     box-shadow: 10px 10px 8px 0px rgba(32, 32, 32, 0.39);
     z-index: 3;
 }
