@@ -1,0 +1,28 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(191, 213, 253);
+
+}
+
+.weather_container {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    height: 97vh;
+}
+
+.weather_head {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2em;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 8px 0px rgba(32, 32, 32, 0.39);
+    z-index: 3;
+}
+
+.weather_body {
+    font-size: 1em;
+    text-align: center;
+    align-self: center;
+}
