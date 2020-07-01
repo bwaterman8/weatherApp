@@ -25,6 +25,7 @@ body {
 }
 
 .weather_body {
+    color: rgb(238, 238, 238);
     font-size: 1em;
     text-align: center;
     align-self: center;
